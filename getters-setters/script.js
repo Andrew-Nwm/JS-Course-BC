@@ -70,7 +70,7 @@ class Person {
 		if (typeof newLastName === "string" && newLastName.length > 0) {
 			this._lastName = newLastName;
 		} else {
-			console.log("First name must be a non-empty string");
+			console.log("Last name must be a non-empty string");
 		}
 	}
 
